@@ -25,16 +25,16 @@ body {
 .wrap {
   padding: 30px;
   text-align: center;
-  width: 800px;
-  height: 80vh;
   background: #fff;
   margin: 0 auto;
   font-family: "LINESeedKR-Bd";
+  max-width: 300px;
 }
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 label {
   font-size: 20px;
@@ -66,12 +66,13 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 340px;
+  height: auto;
   overflow-y: scroll;
+  width: 100%;
 }
 #task-list li {
   margin: 10px 0;
-  width: 300px;
+  width: 80%;
   background: #eee;
   padding: 5px 10px;
   border-radius: 5px;
