@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  background: #eee;
+}
+.wrap {
+  padding: 30px;
+  text-align: center;
+  width: 800px;
+  height: 80vh;
+  background: #fff;
+  margin: 0 auto;
+  font-family: "LINESeedKR-Bd";
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#new-task {
+  width: 300px;
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: 50px;
+}
+#add-button {
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 5px;
+}
+#add-button:hover {
+  background: #888;
+  color: #fff;
+  font-weight: bold;
+}
+#task-list {
+  background: #ffc83d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  overflow-y: scroll;
+}
+#task-list li {
+  margin: 10px 0;
+  width: 300px;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  width: 50px;
+}
+#task-list li p {
+  font-family: "Pretendard-Regular";
+}
+.remove {
+  width: 60px;
+  margin-left: 40px;
+  padding: 2px;
+}
